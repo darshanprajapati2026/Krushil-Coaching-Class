@@ -23,6 +23,13 @@ nav a {
     font-weight: bold;
 }
 
+.result {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
 .hero {
     background: #0d6efd;
     color: white;
