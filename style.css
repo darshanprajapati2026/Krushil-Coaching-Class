@@ -1,0 +1,566 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.learn-btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #0d6efd;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.learn-btn:hover {
+    background: #084298;
+}
+
+footer {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Why Choose Us */
+
+.why-choose-us {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.feature-card {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card h3 {
+    color: #0d6efd;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+/* Popular Courses */
+
+.popular-courses {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.course-card {
+    width: 260px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.course-card h3 {
+    color: #0d6efd;
+}
+
+.course-card button {
+    margin-top: 15px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.course-card button:hover {
+    background: #084298;
+}
+
+/* Student Testimonials */
+
+.testimonials {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.testimonial-card {
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card h3 {
+    font-size: 24px;
+}
+
+.testimonial-card h4 {
+    color: #0d6efd;
+    margin-top: 15px;
+}
+
+.testimonial-card span {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Call To Action */
+
+.cta {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta h2 {
+    margin-bottom: 15px;
+}
+
+.cta p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: white;
+    color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background: #e9ecef;
+}
+
+.btn-secondary {
+    background: #ffc107;
+    color: black;
+}
+
+.btn-secondary:hover {
+    background: #e0a800;
+}
+
+.about-hero {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about-story {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Our Achievements */
+
+.achievements {
+    padding: 60px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.achievement-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.achievement-card {
+    width: 220px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.achievement-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card h3 {
+    font-size: 36px;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.achievement-card p {
+    font-size: 16px;
+}
+
+/* Courses Hero */
+
+.courses-hero {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#class8 ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#class8 li {
+    margin-bottom: 10px;
+}
+
+#trust ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#trust li {
+    margin-bottom: 10px;
+}
+
+/* ============================= */
+/* Course Fees */
+/* ============================= */
+
+.fees {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.fees h2 {
+    color: #0d6efd;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.fees table {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fees th {
+    background: #0d6efd;
+    color: white;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.fees td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px;
+}
+
+.fees tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.fees tr:hover {
+    background: #dbeafe;
+    transition: 0.3s;
+}
+
+/* Enroll Button */
+
+.enroll-btn {
+    display: inline-block;
+    background: #0d6efd;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.enroll-btn:hover {
+    background: #084298;
+    transform: scale(1.05);
+}
+
+/* Contact Hero */
+
+.contact-hero {
+
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.contact-hero h2 {
+
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+
+.contact-info,
+.contactForm,
+.map,
+.hours,
+.social {
+
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+.contactForm form {
+
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.contactForm input,
+.contactForm textarea {
+
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+
+}
+
+.contactForm button {
+
+    background: #0d6efd;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.contactForm button:hover {
+
+    background: #084298;
+
+}
+
+/* ============================= */
+/* Responsive Design */
+/* ============================= */
+
+@media(max-width:768px) {
+
+    .contactForm form {
+
+        width: 95%;
+
+    }
+
+    .features {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .feature-card {
+
+        width: 90%;
+
+    }
+
+    .courses-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card {
+        width: 90%;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 90%;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 220px;
+        text-align: center;
+    }
+
+    .mission {
+        flex-direction: column;
+    }
+
+    .faculty-card {
+        width: 90%;
+    }
+
+    .achievement-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achievement-card {
+        width: 90%;
+    }
+
+    .course-container {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .course-box {
+
+        width: 90%;
+
+    }
+
+    table {
+
+        display: block;
+
+        overflow-x: auto;
+
+    }
+
+    .fees table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+
+    .fees th,
+    .fees td {
+        white-space: nowrap;
+    }
+
+    .enroll-btn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+}
